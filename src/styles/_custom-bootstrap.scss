@@ -1,0 +1,26 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$enable-negative-margins: true;
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "navyBlue": rgb(3, 51, 99),
+    "peach": rgb(247, 234, 218),
+    "beige": #E5C2A0,
+    "brown": rgb(180, 90, 44),
+    "maron": rgb(137, 32, 11),
+  )
+);
+   
+$spacers: map-merge(
+  $spacers,
+  (
+    6: 7rem // Custom value for m-6 (5rem = 80px)
+  )
+);
+
+
+
+// Import the rest of Bootstrap SCSS
+@import "bootstrap/scss/bootstrap";

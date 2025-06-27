@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(247 234 218);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+strong {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+/* In your CSS file */
+.btn-visible {
+  opacity: 1 !important; 
+  
+}
+
+/* Change switch ON color */
+.custom-switch-color .form-check-input:checked {
+  background-color: rgb(180, 90, 44); 
+  border-color: rgb(180, 90, 44);
+}
+
+/* Optional: adjust the focus ring color */
+.custom-switch-color .form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(180, 90, 44, 0.25); 
+}
