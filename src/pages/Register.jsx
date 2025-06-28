@@ -45,7 +45,7 @@ const Register = () => {
       );
       setMessage(response.data.message);
       await checkSession();
-      console.log("register successful");
+      // console.log("register successful");
       navigate("/");
 
     } catch (error) {

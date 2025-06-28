@@ -35,7 +35,7 @@ const ChefProfile = () => {
         axios.get("/chef-profile/")
             .then(response => {
                 const data = response.data;
-                console.log('data', data)
+                // console.log('data', data)
 
                 setProfile({
                     full_name: data.full_name || "",

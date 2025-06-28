@@ -55,7 +55,7 @@ const ChefDishes = () => {
         fetchChefAndDishes();
     }, [chefId, selectedSlot]);
     
-    console.log("dishes", dishes)
+    // console.log("dishes", dishes)
 
     const handleSlotChange = (slot) => {
         setSelectedSlot({

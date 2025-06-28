@@ -30,7 +30,7 @@ const Login = () => {
                 { username, password },
             );
             
-            console.log("Login successful!", response.data);
+            // console.log("Login successful!", response.data);
             await checkSession()
             navigate("/");
         } catch (error) {

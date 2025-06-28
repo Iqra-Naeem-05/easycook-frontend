@@ -82,7 +82,7 @@ const AddEditDish = () => {
     } catch (err) {
       if (err.response?.status === 400) {
         setErrors(err.response.data);
-        console.log(err.response.data)
+        // console.log(err.response.data)
       } else {
         console.error('Unexpected error:', err);
       }

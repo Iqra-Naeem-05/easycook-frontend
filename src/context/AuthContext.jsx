@@ -45,8 +45,8 @@ const AuthProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    console.log(`User state updated:`, user);
-    console.log(`isLoggedIn state updated:`, isLoggedIn);
+    // console.log(`User state updated:`, user);
+    // console.log(`isLoggedIn state updated:`, isLoggedIn);
   }, [user, isLoggedIn]); // Logs only when these values change
 
 

@@ -130,7 +130,7 @@ const BookingSummary = ({ selectedDishes, chef, bookingOptions }) => {
     } catch (error) {
       if (error.response && error.response.status === 400) {
         setError(error.response.data);
-        console.log(error.response.data)
+        // console.log(error.response.data)
       } else {
         setError({ bookingFailed: "An unexpected error occurred. Please try again." });
       }

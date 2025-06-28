@@ -19,7 +19,7 @@ const Logout = () => {
         await axios.post("/logout/", {},
           );
         logout(); 
-        console.log("Logout successful");
+        // console.log("Logout successful");
       } catch (error) {
         console.error("Logout failed:", error.response?.data || error.message);
       }

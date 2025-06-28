@@ -12,7 +12,7 @@ const HomePage = () => {
     axios.get("featured-Chef/")
       .then(res => {
         setFeaturedChefs(res.data)
-        console.log(res.data)
+        // console.log(res.data)
       })
       .catch(err => console.error(err));
   }, []);
