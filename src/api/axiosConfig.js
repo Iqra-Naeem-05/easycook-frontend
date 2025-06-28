@@ -10,7 +10,8 @@ const getCookie = (name) => {
 };
 
 // Axios default settings
-axios.defaults.baseURL = "http://127.0.0.1:8000/api"; 
+// axios.defaults.baseURL = "http://127.0.0.1:8000/api"; 
+axios.defaults.baseURL =  `${process.env.REACT_APP_API_URL}/api`; 
 axios.defaults.withCredentials = true; 
 
 // Attach CSRF token to all requests
