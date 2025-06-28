@@ -13,6 +13,8 @@ const getCookie = (name) => {
 // axios.defaults.baseURL = "http://127.0.0.1:8000/api"; 
 axios.defaults.baseURL =  `${process.env.REACT_APP_API_URL}/api`; 
 axios.defaults.withCredentials = true; 
+console.log("REACT_APP_API_URL:", process.env.REACT_APP_API_URL);
+
 
 // Attach CSRF token to all requests
 axios.interceptors.request.use(config => {
