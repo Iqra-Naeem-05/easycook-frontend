@@ -8,7 +8,13 @@ export const RestrictedRoute = ({ children }) => {
     return isLoggedIn ? <Navigate to="/" /> : children;
 };
 
-export const PrivateRoute = ({ children, allowedRoles }) => {
+
+
+
+
+
+
+export const PrivateRoute = ({ children, allowedRoles }) => { 
   const { isLoggedIn, user } = useContext(AuthContext);
 
   if (isLoggedIn == null) return <div>Loading...</div>; 

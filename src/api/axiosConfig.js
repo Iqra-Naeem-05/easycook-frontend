@@ -11,7 +11,8 @@ const getCookie = (name) => {
 
 // Axios default settings
 // axios.defaults.baseURL = "http://127.0.0.1:8000/api"; 
-axios.defaults.baseURL = `${import.meta.env.VITE_API_URL}/api`;
+axios.defaults.baseURL = "https://cf7b4e9f-1937-4147-a057-80f8f8327ae7-00-int2ogr1e2nw.kirk.replit.dev/api"; 
+// axios.defaults.baseURL = `${import.meta.env.VITE_API_URL}/api`;
 axios.defaults.withCredentials = true; 
 
 
